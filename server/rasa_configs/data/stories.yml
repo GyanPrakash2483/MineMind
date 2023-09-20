@@ -1,0 +1,90 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: what_coal_mean
+  steps:
+  - intent: ask_what_coal_mean
+  - action: utter_what_coal_mean
+
+- story: what_coal_controller_mean
+  steps:
+  - intent: ask_what_coal_controller_mean
+  - action: utter_what_coal_controller_mean
+
+- story: what_colliery_mean
+  steps:
+  - intent: ask_what_colliery_mean
+  - action: utter_what_colliery_mean
+
+- story: what_disposal_mean
+  steps:
+  - intent: ask_what_disposal_mean
+  - action: utter_what_disposal_mean
+
+- story: grades_of_coal
+  steps:
+  - intent: ask_grades_of_coal
+  - action: utter_grades_of_coal
+
+- story: what_information_be_shared
+  steps:
+  - intent: ask_what_information_be_shared
+  - action: utter_what_information_be_shared
+
+- story: can_production_be_shut
+  steps:
+  - intent: ask_can_production_be_shut
+  - action: utter_can_production_be_shut
+
+- story: permission_to_open_coal_mine
+  steps:
+  - intent: ask_permission_to_open_coal_mine
+  - action: utter_permission_to_open_coal_mine
+
+- story: inform_about_closure
+  steps:
+  - intent: ask_inform_about_closure
+  - action: utter_inform_about_closure
+
+- story: can_subdivide_coal_mine
+  steps:
+  - intent: ask_can_subdivide_coal_mine
+  - action: utter_can_subdivide_coal_mine
+
+- story: can_mine_inspected
+  steps:
+  - intent: ask_can_mine_inspected
+  - action: utter_can_mine_inspected
+
+- story: punishment_if_rule_break
+  steps:
+  - intent: ask_punishment_if_rule_break
+  - action: utter_punishment_if_rule_break

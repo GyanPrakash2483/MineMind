@@ -1,0 +1,194 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yo
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_what_coal_mean
+  examples: |
+    - What minerals come under coal?
+    - what coal mean
+    - coal meaning
+    - what does coal include?
+
+- intent: ask_what_coal_controller_mean
+  examples: |
+    - Who is coal controller?
+    - What is coal controller?
+    - Coal controller meaning
+    - what do you mean by coal controller?
+    - what powers a coal controller have
+    - what orders can coal controller give?
+
+- intent: ask_what_colliery_mean
+  examples: |
+    - What is a colliery?
+    - What comes under colliery?
+    - colliery meaning
+    - what it means by colliery?
+    - what is the process of working with coal called?
+
+- intent: ask_what_disposal_mean
+  examples: |
+    - What does disposal mean?
+    - How should one dispose waste?
+    - What are the rules for disposal?
+    - What are concerns to take care for disposal?
+    - disposal management
+    - directions for waste management
+    - rules to manage waste
+
+- intent: ask_grades_of_coal
+  examples: |
+    - What grades of coal should be used?
+    - What grade of coal is good
+    - Quality of coal
+    - Quality of mined coal
+    - What are the rules for quality of coal
+    - what determines the grades of coal
+
+- intent: ask_what_information_be_shared
+  examples: |
+    - What information I need to share with government?
+    - What data has to be given?
+    - Should I submit any data?
+    - To who should one submit the data?
+    - can anyone ask for data
+    - required information to be submitted
+
+- intent: ask_can_production_be_shut
+  examples: |
+    - Can government shut the production of coal?
+    - Who can prohibit mining
+    - Who can stop coal making?
+    - How to get a coal mining stopped?
+    - get coal mine closed
+
+- intent: ask_permission_to_open_coal_mine
+  examples: |
+    - Who gives permission to open coal mine?
+    - How to get a coal mine opened?
+    - How to start a coal mine?
+    - rules for opening coal mine
+    - sarting coal mine
+
+- intent: ask_inform_about_closure
+  examples: |
+    - Who to inform about closure of a coal mine?
+    - Do one need to inform someone to close coal mine?
+    - necessary to inform someone about coal mine
+
+- intent: ask_can_subdivide_coal_mine
+  examples: |
+    - Can one subdivide their coal mine?
+    - Can a mining operation be divided?
+    - How to get mining divided to many place
+    - expanding mining to different location
+
+- intent: ask_can_mine_inspected
+  examples: |
+    - Can an inspector inspect the mines?
+    - Can government get the mines inspected?
+    - what to do when inspection?
+    - can coal controller inspect coal mines?
+    - checking of mine
+    - can mine be checked
+
+- intent: ask_punishment_if_rule_break
+  examples: |
+    - What is the punishment for not doing these?
+    - What punishment is for breaking rules?
+    - How many years of sentence
+    - How much mine
+    - when is punishment
+    - when fine is imposed
+    - rule breaking results
+    - result of breaking a rule
+    - what if this rule is not followed?
